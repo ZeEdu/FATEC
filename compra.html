@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<!---cabeçalho--->
+
+<head>
+    <title>My Hero Academia</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+    <body>
+	    <header>
+            <a class="logo" href="index.html">
+                <img src="imagens/logo.png" class="logo" width="450" height="185">
+            </a>           
+        </header>
+
+<!--------menu--->
+
+<nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="perso.html">personagens</a></li>
+            <li><a href="compra.html">compre</a></li>
+            <li><a href="anime.html">anime</a></li>
+        </ul>
+</nav>
+
+<!-----article--->
+
+<article>
+    <h1>Tenha Os Volumes</h1>   
+        <form 
+            method="get"
+            action="http://compra.hero.com/compra.cgi">
+               <fieldset>
+                   <legend>Informações Básicas</legend>   
+                        <p><label>Seu Nome: <input></label></p>
+                        <p><label>E-Mail: <input type=email></label></p>
+                        <p><label>Telefone: <input type=tel></label></p>
+                        <p><label>Senha: <input type="password"></label></p>
+               </fieldset>
+               <fieldset>
+                    <legend>Entrega</legend>
+                       <p><label>Horário de Entrega: <input type=time min="09:00" max="18:00" step="900"></label></p>
+                       <p><label>Instruções de Entrega: <textarea></textarea></label></p>
+               </fieldset>
+               <fieldset>
+                   <legend>Volume</legend>
+                       <p><label>Selecione o Volume</label>
+                           <select id="volume">
+                               <option value="1">Volume 1</option>
+                               <option value="2">Volume 2</option>
+                               <option value="3">Volume 3</option>
+                               <option value="4">Volume 4</option>
+                               <option value="5">Volume 5</option>
+                               <option value="6">Volume 6</option>
+                               <option value="7">Volume 7</option>
+                               <option value="8">Volume 8</option>
+                               <option value="9">Volume 9</option>
+                               <option value="10">Volume 10</option>
+                               <option value="11">Volume 11</option>
+                               <option value="12">Volume 12</option>
+                               <option value="13">Volume 13</option>
+                               <option value="14">Volume 14</option>
+                               <option value="15">Volume 15</option>
+                           </select></p>
+                   <legend>Capa:</legend>
+                       <p><label><input type=radio name="size"> Capa Dura</label></p>
+                       <p><label><input type=radio name="size"> Brochura</label></p>
+                       <p><label><input type=radio name="size"> Espiral</label></p>
+               </fieldset>
+                    <p><button>Enviar</button></p>
+        </form>
+</article>
+
+<!------footer---->
+       
+    <footer>
+        <img class="img_footer" src="imagens/140x100.jpg" alt="logo_footer" width="138" height="75">
+            <p class="p_footer">Todos os direitos reservados à Kohei Horikoshi</p>
+                <h3 class="h3_footer">Contato</h3>
+                    <ul class="ul_footer">
+                        <li class="li_footer">E-Mail: 1@2.co</li>
+                        <li class="li_footer">Telefone: (00) 00000-0000</li>
+                        <li class="li_footer">Endereço: Rua dos Bobos, n°0</li>
+                    </ul>
+            </footer>
+       </body>
+    </html>
