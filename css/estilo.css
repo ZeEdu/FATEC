@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+html {
+    background-color: black;
+}   
+body {
+    width: 1024px;
+    text-align: center;
+    background-color: white;
+    margin: 0px auto 0px auto;
+}
+
+
+/*cabeçalho*/
+
+.logo{
+    padding-top: 20px;
+}
+header {
+    background-color: red;
+}
+
+nav { 
+    padding: 1px 0px 1px 0px;
+    background-color: yellow;
+}
+ul li{ 
+    display: inline;
+}    
+ul li a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: black;
+    padding: 18px 30px;
+}
+ul li a:hover {
+    background-color: red;
+}
+
+
+/*home*/
+
+/*article*/
+p {
+    font-family: "Times New Roman", Times, "Liberation Serif" Liberation Serif, serif;
+    font-size: 0.9em;
+}
+.article_home {
+    width: 600px;
+    height: 1350px;
+    text-align: left;
+    padding: 0px 0px 10px 50px;
+    float: left;
+}
+.h1_home, .h2_home {
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+.h1_home {
+    margin-top: 75px;
+}
+/*asides*/
+.aside1_home {
+    width: 250px;
+    float: right;
+    padding: 50px;
+    margin-top: 65px;
+}
+.aside2_home {
+    width: 250px;
+    float: right;
+    padding: 325px 50px 50px 50px;
+}
+
+
+/*personagens*/
+
+
+/*article*/
+.article_perso {
+    height: 750px;
+}
+.h1_perso{
+    font-family: Arial, Liberation Sans, sans-serif;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+.p_perso{
+    font-family: "Times New Roman", Times, "Liberation Serif" Liberation Serif, serif;
+    font-size: 1.1em;
+    width: 700px;
+    margin: 10px auto;
+}
+.h2_perso_alunos {
+    font-family: Arial, Liberation Sans, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    position: absolute;
+    top: 456px;
+    margin-left: 350px;
+}
+.h2_perso_alunos:hover {
+    background-color: red;
+    padding: 2px 301px 2px 5px;
+}
+.link_alu_izu {
+    position: absolute;
+    top: 510px;
+    margin-left: -50px;
+}
+.link_alu_bak {
+    position: absolute;
+    top: 510px;
+    margin-left: 110px;
+}
+.link_alu_tod {
+    position: absolute;
+    top: 510px;
+    margin-left: 270px;
+}
+.h2_perso_pros {
+    font-family: Arial, Liberation Sans, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    position: absolute;
+    top: 606px;
+    margin-left: 350px;
+}
+.h2_perso_pros:hover {
+    background-color: yellow;
+    padding: 2px 353px 2px 5px;    
+}
+.link_pro_all {
+    position: absolute;
+    top: 660px;
+    margin-left: -50px;    
+}
+.link_pro_era {
+    position: absolute;
+    top: 660px;
+    margin-left: 110px;   
+}
+.link_pro_end {
+    position: absolute;
+    top: 660px;
+    margin-left: 270px;  
+}
+.h2_perso_vil {
+    font-family: Arial, Liberation Sans, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    position: absolute;
+    top: 756px;
+    margin-left: 350px;   
+}
+.h2_perso_vil:hover {
+    background-color: red;
+    padding: 2px 391px 2px 5px;
+}
+.link_vil_shi {
+    position: absolute;
+    top: 810px;
+    margin-left: -50px;    
+}
+.link_vil_ovr {
+    position: absolute;
+    top: 810px;
+    margin-left: 110px;  
+}
+.link_vil_stn {
+    position: absolute;
+    top: 810px;
+    margin-left: 270px;   
+}
+
+
+/*Alunos*/
+.h1_alunos {
+    margin: 75px 0px;
+}
+.p_alunos_1, .p_alunos_2, .p_alunos_3, .p_alunos_4 {
+    text-align: left;
+    width: 550px;
+    margin-left: 20px;
+    float: left;
+}
+.p_alunos_4 {
+    padding-bottom: 75px;
+}
+
+
+/*pros*/
+.h1_pros {
+    margin: 75px 0px;
+}
+.p_pros_1, .p_pros_2, .p_pros_3, .p_pros_4 {
+    text-align: left;
+    width: 550px;
+    margin-left: 20px;
+    float: left;
+}
+.p_pros_3 {
+    padding-bottom: 95px;
+}
+
+
+/*viloes*/
+
+.h1_viloes {
+    margin: 75px 0px;
+}
+.p_viloes_1, .p_viloes_2, .p_viloes_3 {
+    text-align: left;
+    width: 550px;
+    margin-left: 20px;
+    float: left;    
+}
+
+/*tabelas*/
+
+table, tr, td, th {
+    padding: 2px;
+    border: 1px solid black;
+    float: inherit;
+    
+}
+th {
+    background-color: red;
+    width: 100px;
+}
+td {
+    background-color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+table {
+    margin-top: 85px;
+    background-color: yellow;
+    margin-bottom: 100px;
+    margin-left: auto;
+
+}
+        /*compra*/
+
+.article_compra {
+    height: 550px;
+}
+.fieldset_info {
+    width: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 75px;
+}
+.nome {
+    margin-right: 100px;
+}
+.mail {
+    width: 300px;
+    margin-right: 100px;
+}
+.fone {
+    width: 300px;
+    margin-right: 100px;
+}
+.senha {
+    width: 300px;
+    margin-right: 100px;
+}
+.in_mail {
+    padding-right: 20px;
+}
+.in_fone {
+    padding-right: 11px;
+}
+.in_senha {
+    padding-right: 25px;
+}
+.fieldset_entrega {
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    text-align: left;
+    position:absolute;
+    top: 520px;
+    margin-left: 75px;
+}
+.hora_entrega {
+    width: 300px;
+    margin-right: 120px;
+    margin-left: 30px;
+}
+.in_hora_entrega {
+    padding-right: 45px;
+}
+.ins_entrega {
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    margin-left: 30px;
+
+}
+textarea {
+    width: 320px;
+    height: 70px;
+    margin: 15px 25px 0px 20px;
+}
+.fieldset_volume {
+    width: 380px;
+    height: 175px;
+    float: right;
+    padding: 0px;
+    margin: 0px 75px 0px 0px;
+}
+.p_nome {
+    width: 280px;
+    margin: 0px;
+    padding: 10px 0px 10px 35px;
+}
+.label_nome {
+    margin-right: 10px;
+}
+.select {
+    width: 130px;
+}
+.legend_capa {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.p_capa_dura {
+    margin: 0px;
+}
+.label_capa_dura {
+    margin-right: 100px;
+}
+.p_brochura {
+    margin: 0px;
+}
+.label_brochura {
+    margin-right: 107px;    
+}
+.p_espiral {
+    margin: 0px;
+}
+
+
+
+
+legend {
+    text-align: center;
+}
+/*footer*/
+footer {
+    background-color: darkred;
+    clear: both;
+    color: white;
+    font-family: Arial, Liberation Sans, Helvetica, sans-serif;
+    font-size: 0.8em; 
+    height: 175px;
+}
+.img_footer {
+    float: left;
+    padding: 50px 25px 50px 100px;
+}
+.p_footer{
+    float: left;
+    padding: 65px 0px 65px 100px;
+    font-family: Arial, Liberation Sans, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+.h3_footer{
+    padding: 30px 100px 0px 0px;
+}
+.li_footer{
+    display: block;
+    padding: 5px 0px 0px 170px;
+    text-align: left;
+    float: left;
+}

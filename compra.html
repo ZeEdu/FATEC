@@ -2,7 +2,7 @@
 
 <html lang="pt-br">
 
-<!---cabeçalho--->
+<!--cabeçalho-->
 
 <head>
     <title>My Hero Academia</title>
@@ -12,11 +12,11 @@
     <body>
 	    <header>
             <a class="logo" href="index.html">
-                <img src="imagens/logo.png" class="logo" width="450" height="185">
+                <img src="imagens/logo.png" class="logo" alt="logo" width="450" height="185">
             </a>           
         </header>
 
-<!--------menu--->
+<!--menu-->
 
 <nav>
         <ul>
@@ -27,29 +27,24 @@
         </ul>
 </nav>
 
-<!-----article--->
+<!--article-->
 
-<article>
+<article class="article_compra">
     <h1>Tenha Os Volumes</h1>   
         <form 
             method="get"
             action="http://compra.hero.com/compra.cgi">
-               <fieldset>
+               <fieldset class="fieldset_info">
                    <legend>Informações Básicas</legend>   
-                        <p><label>Seu Nome: <input></label></p>
-                        <p><label>E-Mail: <input type=email></label></p>
-                        <p><label>Telefone: <input type=tel></label></p>
-                        <p><label>Senha: <input type="password"></label></p>
+                        <p><label class="nome">Seu Nome: <input class="in_nome"></label></p>
+                        <p><label class="mail">E-Mail: <input class="in_mail" type=email></label></p>
+                        <p><label class="fone">Telefone: <input class="in_fone" type=tel></label></p>
+                        <p><label class="senha">Senha: <input class="in_senha" type="password"></label></p>
                </fieldset>
-               <fieldset>
-                    <legend>Entrega</legend>
-                       <p><label>Horário de Entrega: <input type=time min="09:00" max="18:00" step="900"></label></p>
-                       <p><label>Instruções de Entrega: <textarea></textarea></label></p>
-               </fieldset>
-               <fieldset>
+               <fieldset class="fieldset_volume">
                    <legend>Volume</legend>
-                       <p><label>Selecione o Volume</label>
-                           <select id="volume">
+                       <p class="p_nome"><label class="label_nome">Selecione o Volume</label>
+                           <select class="select" id="volume">
                                <option value="1">Volume 1</option>
                                <option value="2">Volume 2</option>
                                <option value="3">Volume 3</option>
@@ -66,16 +61,21 @@
                                <option value="14">Volume 14</option>
                                <option value="15">Volume 15</option>
                            </select></p>
-                   <legend>Capa:</legend>
-                       <p><label><input type=radio name="size"> Capa Dura</label></p>
-                       <p><label><input type=radio name="size"> Brochura</label></p>
-                       <p><label><input type=radio name="size"> Espiral</label></p>
+                   <p class="legend_capa">Capa:</p>
+                       <p class="p_capa_dura"><label class="label_capa_dura"><input type=radio name="size"> Capa Dura</label></p>
+                       <p class="p_brochura"><label class="label_brochura"><input type=radio name="size"> Brochura</label></p>
+                       <p class="p_espiral"><label class=""><input type=radio name="size"> Espiral</label></p>
+               </fieldset>
+              <fieldset class="fieldset_entrega">
+                    <legend>Entrega</legend>
+                       <p><label class="hora_entrega">Horário de Entrega: <input class="in_hora_entrega" type=time min="09:00" max="18:00" step="900"></label></p>
+                       <p><label class="ins_entrega">Instruções de Entrega: <textarea class=""></textarea></label></p>
                </fieldset>
                     <p><button>Enviar</button></p>
         </form>
 </article>
 
-<!------footer---->
+<!--footer-->
        
     <footer>
         <img class="img_footer" src="imagens/140x100.jpg" alt="logo_footer" width="138" height="75">
