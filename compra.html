@@ -10,10 +10,16 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
     <body>
-	    <header>
-            <a class="logo" href="index.html">
-                <img src="imagens/logo.png" class="logo" alt="logo" width="450" height="185">
-            </a>           
+	    <header class="header_header">
+            <a href="index.html">
+                    <img class="cab_shoto" src="imagens/shoto.png" alt="Todoroki Shoto" width="245" height="250">
+            </a>
+            <a href="index.html">
+                    <img class="cab_izuku" src="imagens/deku.png" alt="Midoriya Izuku" width="245" height="250">
+            </a> 
+            <a href="index.html">
+                    <img class="cab_bakugou" src="imagens/katsuki.png" alt="Katsuki Bakugou" width="245" height="250">
+            </a> 
         </header>
 
 <!--menu-->
@@ -31,18 +37,18 @@
 
 <article class="article_compra">
     <h1>Tenha Os Volumes</h1>   
-        <form 
+        <form class="form" 
             method="get"
             action="http://compra.hero.com/compra.cgi">
                <fieldset class="fieldset_info">
-                   <legend>Informações Básicas</legend>   
+                   <legend class="info_basicas" >Informações Básicas</legend>   
                         <p><label class="nome">Seu Nome: <input class="in_nome"></label></p>
                         <p><label class="mail">E-Mail: <input class="in_mail" type=email></label></p>
                         <p><label class="fone">Telefone: <input class="in_fone" type=tel></label></p>
                         <p><label class="senha">Senha: <input class="in_senha" type="password"></label></p>
                </fieldset>
                <fieldset class="fieldset_volume">
-                   <legend>Volume</legend>
+                   <legend class="legend_volume">Volume</legend>
                        <p class="p_nome"><label class="label_nome">Selecione o Volume</label>
                            <select class="select" id="volume">
                                <option value="1">Volume 1</option>
@@ -61,31 +67,32 @@
                                <option value="14">Volume 14</option>
                                <option value="15">Volume 15</option>
                            </select></p>
-                   <p class="legend_capa">Capa:</p>
+                   <p class="p_capa">Capa:</p>
                        <p class="p_capa_dura"><label class="label_capa_dura"><input type=radio name="size"> Capa Dura</label></p>
-                       <p class="p_brochura"><label class="label_brochura"><input type=radio name="size"> Brochura</label></p>
-                       <p class="p_espiral"><label class=""><input type=radio name="size"> Espiral</label></p>
+                       <p class="p_brochura"><label class="label_brochura"><input type=radio name="size"> Brochura </label></p>
+                       <p class="p_espiral"><label class="label_espiral"><input type=radio name="size"> Espiral  </label></p>
                </fieldset>
               <fieldset class="fieldset_entrega">
-                    <legend>Entrega</legend>
+                    <legend class="legend_entrega">Entrega</legend>
                        <p><label class="hora_entrega">Horário de Entrega: <input class="in_hora_entrega" type=time min="09:00" max="18:00" step="900"></label></p>
                        <p><label class="ins_entrega">Instruções de Entrega: <textarea class=""></textarea></label></p>
                </fieldset>
-                    <p><button>Enviar</button></p>
+                    <p class="p_button"><button class="button">Enviar</button></p>
         </form>
 </article>
 
 <!--footer-->
-       
     <footer>
-        <img class="img_footer" src="imagens/140x100.jpg" alt="logo_footer" width="138" height="75">
-            <p class="p_footer">Todos os direitos reservados à Kohei Horikoshi</p>
-                <h3 class="h3_footer">Contato</h3>
-                    <ul class="ul_footer">
-                        <li class="li_footer">E-Mail: 1@2.co</li>
-                        <li class="li_footer">Telefone: (00) 00000-0000</li>
-                        <li class="li_footer">Endereço: Rua dos Bobos, n°0</li>
-                    </ul>
-            </footer>
+        <img class="img_footer1" src="imagens/facebook.png" alt="logo facebook" width="50" height="50">
+            <img class="img_footer2" src="imagens/youtube.png" alt="logo youtube" width="50" height="50">
+                <img class="img_footer3" src="imagens/twitter.png" alt="logo twitter" width="50" height="50">
+                    <p class="p_footer">Todos os direitos reservados à Kohei Horikoshi</p>
+                        <h3 class="h3_footer">Contato</h3>
+                            <ul class="ul_footer">
+                                <li class="li_footer">E-Mail: 1@2.co</li>
+                                <li class="li_footer">Telefone: (00) 00000-0000</li>
+                                <li class="li_footer">Endereço: Rua dos Bobos, n°0</li>
+                            </ul>
+                    </footer>
        </body>
     </html>
